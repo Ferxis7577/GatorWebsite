@@ -3,23 +3,32 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FASTER - Logistics Company Website Template</title>
+    <title>GATOR INTERNATIONAL - Logistics Company</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/gatoricon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+ <!-- Libraries Script lightbox -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <!-- Libraries Stylesheet lightbox -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -31,9 +40,9 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
+                    <small><i class="fa fa-phone-alt mr-2"></i>+1 (866) 264-4765</small>
                     <small class="px-3">|</small>
-                    <small><i class="fa fa-envelope mr-2"></i>info@example.com</small>
+                    <small><i class="fa fa-envelope mr-2"></i>usaops@gatorintl.com</small>
                 </div>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
@@ -60,49 +69,55 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <h1 class="m-0 display-5 text-uppercase text-primary"><i class="fa fa-truck mr-2"></i>Faster</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-                <div class="navbar-nav m-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="price.html" class="nav-item nav-link">Price</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu rounded-0 m-0">
-                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                            <a href="single.html" class="dropdown-item active">Blog Detail</a>
-                        </div>
+   <!-- Navbar Start -->
+   <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <img src="img/gatorback.png" class="rounded float-left" alt="#">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="routes.html" class="nav-item nav-link">Routes</a>
+                <a hre="clients.html" class="nav-item nav-link">Clients</a>
+                <a hre="#" class="nav-item nav-link">Cargodite</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Language</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="#" class="dropdown-item">Spanish</a>
+                        <a href="#" class="dropdown-item">English</a>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
+            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Get A Quote</a>
+        </div>
+    </nav>
+</div>
+<!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid mb-5">
-        <div class="container text-center py-5">
-            <h1 class="text-white display-3">Blog Detail</h1>
-            <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
-                <i class="fa fa-circle px-3"></i>
-                <p class="m-0">Blog Detail</p>
-            </div>
+ <!-- Header Start -->
+ <div class="jumbotron jumbotron-fluid mb-5">
+    <div class="container text-center py-5">
+        <h1 class="text-primary mb-4">Safety & Efficacy</h1>
+        <h1 class="text-white display-3 mb-5">Logistics & Carrier Services</h1>
+        <div class="mx-auto" style="width: 100%; max-width: 600px;">
+            <!-- <div class="input-group">
+                <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Tracking Id">
+                <div class="input-group-append">
+                    <button class="btn btn-primary px-3">Track & Trace</button>
+                </div>
+            </div> -->
         </div>
     </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
 
     <!-- Blog Start -->
