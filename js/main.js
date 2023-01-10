@@ -18,6 +18,21 @@
         $(window).resize(toggleNavbarMethod);
     });
     
+    //Header Scroll Sticky
+    document.addEventListener('DOMContentLoaded',()=>{
+        const fixed=(element, padding)=>{
+            const fixedBlock=document.querySelector(element);
+            const sticky =fixedBlock.offsetTop;
+            if(window.pageYOffset>sticky){
+                fixedBlock.classList.add('fixed');
+            }else{
+                fixedBlock.classList.remove('fixed');
+            }
+        }
+        window.addEventListener('scroll', ()=>{
+            fixed('.p-0',true);
+        })
+    });
     
     // Back to top button
     $(window).scroll(function () {
