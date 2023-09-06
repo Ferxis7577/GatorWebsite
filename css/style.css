@@ -161,6 +161,7 @@ a{
 a:hover {
   color: #040f4a;
   text-decoration: underline;
+  
 }
 
 a:not([href]):not([class]) {
@@ -542,6 +543,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .img-thumbnail {
@@ -619,10 +621,14 @@ pre code {
   margin-left: auto;
 }
 
+
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
   }
+
+  .contain
   .imgmapusa {
     width: 210px;
     height: auto;
@@ -661,6 +667,7 @@ pre code {
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
+    margin-left: 320px;
   }
   .imgmapusa {
     width: 210px;
@@ -682,6 +689,7 @@ pre code {
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
+    margin-left: 320px;
   }
 
   .imgmapusa {
@@ -6165,6 +6173,7 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #02136d !important;
+  border-radius: 10px;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
