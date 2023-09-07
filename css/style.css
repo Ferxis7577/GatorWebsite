@@ -461,7 +461,7 @@ h6, .h6 {
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -668,7 +668,6 @@ pre code {
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
-    margin-left: 320px;
   }
   .imgmapusa {
     width: 210px;
@@ -690,7 +689,6 @@ pre code {
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
-    margin-left: 320px;
   }
 
   .imgmapusa {
@@ -7468,6 +7466,7 @@ button.bg-dark:focus {
 .mb-2,
 .my-2 {
   margin-bottom: 0.5rem !important;
+  display: inline;
 }
 
 .ml-2,
@@ -7516,6 +7515,7 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+
 }
 
 .ml-4,
