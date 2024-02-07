@@ -1988,6 +1988,23 @@ pre code {
   box-shadow: 0 0 0 0.2rem rgba(255, 72, 0, 0.25);
 }
 
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img{
+  width:150px;
+  height: auto;
+}
+
+.logo-container img:last-child{
+  width:300px;
+  height: auto;
+}
+
+
 .form-control::placeholder {
   color: #6c757d;
   opacity: 1;
@@ -2392,6 +2409,7 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+
 }
 
 .btn {
@@ -4165,6 +4183,23 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
+  
+  .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-container img{
+    width:120px;
+    height: auto;
+  }
+  
+  .logo-container img:last-child{
+    width:200px;
+    height: auto;
+  }
+
 }
 
 @media (min-width: 576px) {
