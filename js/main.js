@@ -96,6 +96,26 @@
             }
         }
     });
+
+    // Additional Script for Popup Image
+    document.querySelectorAll('.timeline img').forEach(image => {
+        image.onclick = () => {
+
+            // Hide the navbar when an image is clicked
+            document.querySelector('.p-0').classList.remove('fixed');
+
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+    });
+    
+    document.querySelector('.popup-image span').onclick = () => {
+        // Show the navbar when the popup image is closed
+        document.querySelector('.p-0').classList.add('fixed');
+        
+        document.querySelector('.popup-image').style.display = 'none';
+    };
+
     
 })(jQuery);
 
