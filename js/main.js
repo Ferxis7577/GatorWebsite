@@ -116,6 +116,7 @@
         document.querySelector('.popup-image').style.display = 'none';
     };
 
+  
     
 })(jQuery);
 
