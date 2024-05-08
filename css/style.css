@@ -565,6 +565,13 @@ hr {
 .timeline-container:nth-child(5){
   animation-delay:4s;
 }
+.timeline-container:nth-child(6){
+  animation-delay:5s;
+}
+.timeline-container:nth-child(7){
+  animation-delay:6s;
+}
+
 
 
 .text-box{
